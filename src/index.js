@@ -20,7 +20,7 @@ function searchWeather(ev) {
 function weatherService(city, days) {
     
 const API_KEY = "8a54cd2d271744daaf9144117252203";
-    const FORECAST_URL = "http://api.weatherapi.com/v1/forecast.json";
+    const FORECAST_URL = "https://api.weatherapi.com/v1/forecast.json";
     const params = new URLSearchParams({
         key: API_KEY,
         q: city,
